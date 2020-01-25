@@ -7,10 +7,10 @@
       </li>
       <% if user_signed_in? && current_user.id == tweet.user_id %>
         <li>
-          <%= link_to '編集', "/tweets/#{tweet.id}/edit", method: :get %>
+          <%= link_to '編集📝', "/tweets/#{tweet.id}/edit", method: :get %>
         </li>
         <li>
-          <%= link_to '削除', "/tweets/#{tweet.id}", method: :delete %>
+          <%= link_to '削除🗑', "/tweets/#{tweet.id}", method: :delete %>
         </li>
       <% end %>
     </ul>

@@ -53,17 +53,17 @@ h1,h2,h3,h4,h5,h6,body {
 line-height: 1.57;
   letter-spacing: 0.15em;
   font-size: 16px;
-  color: $dark;
+  color: black;
   font-family: 'Unica One', "Avenir", "游ゴシック", "YuGothic", "ヒラギノ角ゴ Pro W6", "HIragino Kaku Gothic Pro W6", "HIragino Kaku Gothic Pro", Osaka, Meiryo, "メイリオ", "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
   margin: 0;
 }
 
 a {
   text-decoration: none;
-  color: $dark;
+  color: black;
   @extend .transition;
   &:hover {
-    color: $accent;
+    color: black;
   }
 }
 
@@ -92,15 +92,15 @@ a {
 .btn {
     @include basePadding(8px 20px);
     font-size: 14px;
-    border: 2px solid $accent;
-    color: $accent;
+    border: 2px solid black;
+    color: black;
     font-weight: bold;
     text-align: center;
     border-radius: 3px;
     display: inline-block;
   &:hover {
-    border-color: lighten($accent, 15%);
-    color: lighten($accent, 15%);
+    border-color: lighten(black, 15%);
+    color: lighten(black, 15%);
   }
 }
 
@@ -171,7 +171,7 @@ header.header {
         margin-left: -4px;
       }
       &:hover ul {
-        color: $accent;
+        color: black;
         display: block;
       }
     }
@@ -233,7 +233,7 @@ div.contents.row {
     background-size: cover;
     background-position: center center;
     border-radius: 3px;
-    box-shadow: 0 0 10px rgba($black,0.2);
+    box-shadow: 0 0 10px rgba(black,0.2);
     &:after {
       content: '';
       position: absolute;
@@ -278,7 +278,7 @@ div.contents.row {
             display: block;
             padding: 5px;
             &:hover {
-              background-color: $accent;
+              background-color: black;
               color: #fff;
             }
           }
@@ -305,7 +305,7 @@ div.contents.row {
       font-size: 13px;
       a {
         display: block;
-        color: #aaa;
+        color: white;
         &:hover {
           text-decoration: underline;
           color: #aaa;
@@ -319,7 +319,7 @@ div.contents.row {
   }
   .success {
     @include boxBase(20px 0 ,30px);
-    box-shadow: 0 0 10px rgba($black,0.2);
+    box-shadow: 0 0 10px rgba(black,0.2);
     background-color: $white;
     box-sizing: border-box;
     text-align: center;
@@ -334,7 +334,7 @@ form {
     text-align: center;
     font-weight: normal;
     font-size: 20px;
-    color: $dark;
+    color: black;
   }
   input,textarea {
     width: 100%;
@@ -345,19 +345,19 @@ form {
   }
   input[type="submit"] {
     @extend .transition;
-    background-color: $accent;
+    background-color: black;
     border-radius: 20px;
     color: #fff;
     border: 0;
     font-size: 18px;
     &:hover {
-      background-color: lighten($accent, 10%);
+      background-color: lighten(black, 10%);
     }
   }
 }
 .container {
   @include boxBase(20px 0 ,30px);
-  box-shadow: 0 0 10px rgba($black,0.2);
+  box-shadow: 0 0 10px rgba(black,0.2);
   background-color: $white;
   box-sizing: border-box;
 }
@@ -365,7 +365,7 @@ form {
   padding: 5px;
   margin-top: 15px;
   a {
-    color: $accent;
+    color: black;
     &:hover {
       text-decoration: underline;
     }
@@ -374,7 +374,7 @@ form {
 
 footer {
   @include boxBase;
-  color: $gray;
+  color: black;
   p {
     text-align: center;
   }
