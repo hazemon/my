@@ -39,9 +39,10 @@ $white: white;
 
 body,html {
   height: 100%;
-  background: -moz-linear-gradient(left,  #427eff 0%, #f13f79 70%);
-  background: -webkit-linear-gradient(left,  #427eff 0%, #f13f79 70%);
-  background: linear-gradient(to right,  #427eff 0%, #f13f79 70%);
+  background:linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)) fixed;
+  // background: -moz-linear-gradient(left, #FFC778 50%, #FFF);
+  // background: -webkit-linear-gradient(left, #FFC778 50%, #FFF);
+  // background: linear-gradient(to right, #FFC778 50%, #FFF);
 }
 
 body {
